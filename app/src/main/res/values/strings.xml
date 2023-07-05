@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tromsoApp</string>
+    <string name="Hoteles">HOTELES</string>
+    <string name="Restaurantes">RESTAURANTES</string>
+    <string name="Turismo">SITIOS TURISTICOS</string>
+    <string name="Catedral">Catedral del Ártico: Este impresionante edificio de arquitectura moderna es uno de los principales atractivos de Tromsø. La Catedral del Ártico, construida en 1965, cuenta con un diseño único y una gran vidriera que permite la entrada de luz natural, creando un ambiente sereno y tranquilo en su interior.</string>
+    <string name="Auroras">Avistamiento de auroras boreales: Tromsø es famosa por ser uno de los mejores lugares del mundo para presenciar las impresionantes auroras boreales. Durante las noches claras y despejadas, tendrás la oportunidad de maravillarte con el espectáculo natural de luces danzantes en el cielo.</string>
+    <string name="Perspectiva">Perspectiva Fjellheisen: Puedes visitar la perspectiva Fjellheisen, se encuentra en la cima de una montaña al otro lado del fiordo desde el teleférico de Tromsø. Desde aquí, tendrás una vista deslumbrante de toda la ciudad y los alrededores.</string>
+    <string name="domosh">Los Tromsø Ice Domes (también conocidos como Tromsø Ice Hotel) son una atracción turística situada en Tromsø, una ciudad en el norte de Noruega, por encima del Círculo Polar Ártico. Es un hotel y complejo construido completamente de hielo y nieve, que se reconstruye cada invierno.</string>
+    <string name="Restaurante1">Walter and Leonard, escondido en un rincón histórico del edificio, nuestro objetivo es ofrecer una experiencia gastronómica íntima que combine a la perfección las tradiciones gastronómicas noruegas con las últimas tendencias culinarias.</string>
+    <string name="Restaurante2">En el restaurante Smak ubicado en Tromsø, los huéspedes pueden disfrutar de deliciosas creaciones culinarias elaboradas con ingredientes de origen local. El menú muestra los elementos naturales únicos y diversos del norte de Noruega y consta de los mejores ingredientes de temporada de la región.</string>
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Noruego</string>
+    <string name="opcion4">Acerca de</string>
+
+</resources>

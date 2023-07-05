@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restaurantes"
+    android:background="@color/lightskyblue">
+
+    <TextView
+        android:id="@+id/Restaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/Restaurantes"
+        app:layout_constraintVertical_bias="0.07"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/ResenaR"
+        android:layout_width="209dp"
+        android:layout_height="170dp"
+        android:text="@string/Restaurante1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Restaurantes"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.01"/>
+
+    <ImageView
+        android:id="@+id/ballena"
+        android:layout_width="186dp"
+        android:layout_height="227dp"
+        android:src="@drawable/ballena"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ResenaR"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/resenaS"
+        android:layout_width="209dp"
+        android:layout_height="170dp"
+        android:text="@string/Restaurante2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ResenaR"
+        app:layout_constraintHorizontal_bias="0.01"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="168dp"
+        android:layout_height="199dp"
+        android:src="@drawable/salmon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/resenaS"
+        app:layout_constraintTop_toBottomOf="@id/ballena"
+        app:layout_constraintVertical_bias="0.83"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
