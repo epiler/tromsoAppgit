@@ -2,6 +2,7 @@ package com.example.tromsoapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,21 +32,24 @@ public class Home extends AppCompatActivity {
         botonHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "hice click", Toast.LENGTH_SHORT).show();
+                Intent intentH = new Intent(Home.this,Hoteles.class);
+                startActivity(intentH);
             }
         });
 
         botonRestaurantes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "hice click", Toast.LENGTH_SHORT).show();
+                Intent intentR = new Intent(Home.this,Restaurantes.class);
+                startActivity(intentR);
             }
         });
 
         botonTurismo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "hice click", Toast.LENGTH_SHORT).show();
+                Intent intentT = new Intent(Home.this,turismoo.class);
+                startActivity(intentT);
             }
         });
     }
@@ -60,16 +64,24 @@ public class Home extends AppCompatActivity {
         switch (itemSeleccionado){
 
             case(R.id.opcion1):
+                Toast.makeText(this, "quiero que este en español", Toast.LENGTH_SHORT);
                 break;
             case(R.id.opcion2):
+                Toast.makeText(this, "quiero que este en ingles", Toast.LENGTH_SHORT);
                 break;
             case(R.id.opcion3):
+                Toast.makeText(this, "quiero que este en noruego", Toast.LENGTH_SHORT);
                 break;
             case(R.id.opcion4):
+                Toast.makeText(this, "quiero ir acerca de nosotros", Toast.LENGTH_SHORT);
                 break;
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void cambiarIdioma(String idioma){
+
     }
 
 }
