@@ -15,5 +15,7 @@
     <string name="opcion2">Spanish</string>
     <string name="opcion3">Norway</string>
     <string name="opcion4">About us</string>
-
+    <string name="Ingresar">Login</string>
+    <string name="Usuario">User</string>
+    <string name="Contraseña">Password</string>
 </resources>

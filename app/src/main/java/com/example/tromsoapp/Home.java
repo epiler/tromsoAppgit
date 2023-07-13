@@ -64,16 +64,17 @@ public class Home extends AppCompatActivity {
         switch (itemSeleccionado){
 
             case(R.id.opcion1):
-                Toast.makeText(this, "quiero que este en español", Toast.LENGTH_SHORT);
+
                 break;
             case(R.id.opcion2):
-                Toast.makeText(this, "quiero que este en ingles", Toast.LENGTH_SHORT);
+
                 break;
             case(R.id.opcion3):
-                Toast.makeText(this, "quiero que este en noruego", Toast.LENGTH_SHORT);
+
                 break;
             case(R.id.opcion4):
-                Toast.makeText(this, "quiero ir acerca de nosotros", Toast.LENGTH_SHORT);
+            Intent intent = new Intent(Home.this,Acerca.class);
+            startActivity(intent);
                 break;
 
         }

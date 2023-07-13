@@ -13,5 +13,8 @@
     <string name="opcion2">Español</string>
     <string name="opcion3">Noruego</string>
     <string name="opcion4">Acerca de</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
 
 </resources>

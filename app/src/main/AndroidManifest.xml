@@ -13,6 +13,20 @@
         android:theme="@style/Theme.TromsoApp"
         tools:targetApi="31">
         <activity
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Acerca"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".turismoo"
             android:exported="false" />
         <activity
