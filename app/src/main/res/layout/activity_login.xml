@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/Usuario"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:layout_marginHorizontal="30dp"
         app:layout_constraintTop_toBottomOf="@+id/IconoLogin"
         app:layout_constraintStart_toEndOf="@id/guideline"
@@ -75,8 +75,8 @@
     <ImageView
         android:id="@+id/LogoFace"
         android:src="@drawable/facebook"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         app:layout_constraintTop_toBottomOf="@+id/botonLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -88,8 +88,8 @@
     <ImageView
         android:id="@+id/LogoGit"
         android:src="@drawable/github"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         app:layout_constraintTop_toBottomOf="@+id/botonLogin"
         app:layout_constraintStart_toEndOf="@+id/LogoFace"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -101,8 +101,8 @@
     <ImageView
         android:id="@+id/logoGoogle"
         android:src="@drawable/google"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         app:layout_constraintTop_toBottomOf="@+id/botonLogin"
         app:layout_constraintStart_toEndOf="@+id/LogoGit"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,4 +125,6 @@
         app:layout_constraintVertical_bias="0.2"
         android:textSize="25dp"
         />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
