@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tromsoApp</string>
+    <string name="Hoteles">HOTELLER</string>
+    <string name="Restaurantes">RESTAURANTER</string>
+    <string name="Turismo">TURISTSTEDER</string>
+    <string name="Catedral">Ishavskatedralen: Denne imponerende bygningen med moderne arkitektur er en av hovedattraksjonene i Tromsø. Ishavskatedralen, bygget i 1965, har en unik design og et stort glassmaleri som slipper naturlig lys inn, og skaper en rolig og rolig atmosfære inne.</string>
+    <string name="Auroras">Nordlysvisning: Tromsø er kjent for å være et av de beste stedene i verden for å oppleve det fantastiske nordlyset. I klare og skyfrie netter.</string>
+    <string name="Perspectiva">Fjellheisen Perspektiv: Du kan besøke Fjellheisen Perspective, det ligger på toppen av et fjell på den andre siden av fjorden fra Tromsøbanen. Herfra vil du ha en fantastisk utsikt over hele byen og området rundt.</string>
+    <string name="domosh">Fjellheisen Perspektiv: Du kan besøke Fjellheisen Perspective, det ligger på toppen av et fjell på den andre siden av fjorden fra Tromsøbanen. Herfra vil du ha en fantastisk utsikt over hele byen og området rundt.</string>
+    <string name="Restaurante1">Walter og Leonard, gjemt i et historisk hjørne av bygningen, tar vi sikte på å levere en intim matopplevelse som sømløst kombinerer norske mattradisjoner med de nyeste kulinariske trendene.</string>
+    <string name="Restaurante2">På Restaurant Smak i Tromsø kan du nyte herlige kulinariske kreasjoner laget av lokale råvarer. Menyen viser de unike og mangfoldige naturelementene i Nord-Norge og består av sesongens beste råvarer hentet fra landsdelen.</string>
+    <string name="opcion1">Engelsk</string>
+    <string name="opcion2">Spansk</string>
+    <string name="opcion3">Norsk</string>
+    <string name="opcion4">Om oss</string>
+    <string name="Ingresar">Pålogging</string>
+    <string name="Usuario">Bruker</string>
+    <string name="Contraseña">Passord</string>
+    <string name="Bienvenida">Velkommen</string>
+    <string name="Cliente">Kunde</string>
+    <string name="Domos">Iskupler</string>
+    <string name="Radisson">Radisson Blu Hotell</string>
+    <string name="Aurorass">Nordlys</string>
+    <string name="PerspectivaT">Fjellheisen perspektiv</string>
+</resources>

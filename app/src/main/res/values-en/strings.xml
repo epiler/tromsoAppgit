@@ -5,7 +5,7 @@
     <string name="Hoteles">HOTELS</string>
     <string name="Restaurantes">RESTAURANTS</string>
     <string name="Turismo">TOURIST SITES</string>
-    <string name="Catedral">Catedral del Ártico: Este impresionante edificio de arquitectura moderna es uno de los principales atractivos de Tromsø. La Catedral del Ártico, construida en 1965, cuenta con un diseño único y una gran vidriera que permite la entrada de luz natural, creando un ambiente sereno y tranquilo en su interior.</string>
+    <string name="Catedral">Arctic Cathedral: This impressive building of modern architecture is one of the main attractions of Tromsø. The Arctic Cathedral, built in 1965, has a unique design and a large stained glass window that allows natural light to enter, creating a serene and tranquil atmosphere inside.</string>
     <string name="Auroras">Northern Lights Viewing: Tromsø is famous for being one of the best places in the world to witness the breathtaking Northern Lights. During clear and cloudless nights.</string>
     <string name="Perspectiva">Fjellheisen Perspective: You can visit the Fjellheisen Perspective, it is located on the top of a mountain on the other side of the fjord from the Tromsø cable car. From here, you will have a stunning view of the entire city and the surrounding area.</string>
     <string name="domosh">The Tromsø Ice Domes (also known as the Tromsø Ice Hotel) are a tourist attraction located in Tromsø, a city in northern Norway, above the Arctic Circle. It is a hotel and complex built entirely of ice and snow, which is reconstructed every winter.</string>
@@ -13,9 +13,15 @@
     <string name="Restaurante2">At Restaurant Smak located in Tromsø, guests can enjoy delightful culinary creations made from locally sourced ingredients. The menu showcases the unique and diverse natural elements of Northern Norway and consists of the finest seasonal ingredients sourced from the region.</string>
     <string name="opcion1">English</string>
     <string name="opcion2">Spanish</string>
-    <string name="opcion3">Norway</string>
+    <string name="opcion3">Norwegian</string>
     <string name="opcion4">About us</string>
     <string name="Ingresar">Login</string>
     <string name="Usuario">User</string>
     <string name="Contraseña">Password</string>
+    <string name="Bienvenida">Welcome</string>
+    <string name="Cliente">Customer</string>
+    <string name="Domos">Ice domes</string>
+    <string name="Radisson">Radisson Blu Hotel</string>
+    <string name="Aurorass">Northern Lights</string>
+    <string name="PerspectivaT">Fjellheisen perspective</string>
 </resources>

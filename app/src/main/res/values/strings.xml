@@ -16,5 +16,10 @@
     <string name="Ingresar">Ingresar</string>
     <string name="Usuario">Usuario</string>
     <string name="Contraseña">Contraseña</string>
-
+    <string name="Bienvenida">Bienvenido</string>
+    <string name="Cliente">Cliente</string>
+    <string name="Domos">Domos de hielo</string>
+    <string name="Radisson">Radisson Blu Hotel</string>
+    <string name="Aurorass">Auroras Boreales</string>
+    <string name="PerspectivaT">Perspectiva Fjellheisen</string>
 </resources>

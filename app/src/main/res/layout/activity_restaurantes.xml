@@ -102,7 +102,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="170dp"
-                        android:text="Walter and Leonard"
+                        android:text="Walter and  Leonard"
                         android:textSize="22dp"
                         android:textStyle="bold"
                         android:textColor="@color/white"

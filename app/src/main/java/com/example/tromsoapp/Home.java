@@ -30,7 +30,7 @@ public class Home extends AppCompatActivity {
         botonHoteles=findViewById(R.id.botonhoteles);
         botonRestaurantes=findViewById(R.id.botonrestaurantes);
         botonTurismo=findViewById(R.id.botonsitios);
-        nombreCliente=findViewById(R.id.);
+        nombreCliente=findViewById(R.id.Usuario);
 
         //Uniendo el texto del PUTEXTRA con el TEXTVIEW
 
@@ -63,11 +63,16 @@ public class Home extends AppCompatActivity {
         });
     }
 
+
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu,menu);
         return true;
     }
 
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int itemSeleccionado=item.getItemId();
         switch (itemSeleccionado){
@@ -82,16 +87,15 @@ public class Home extends AppCompatActivity {
 
                 break;
             case(R.id.opcion4):
-            Intent intent = new Intent(Home.this,Acerca.class);
-            startActivity(intent);
-                break;
+
+            break;
 
         }
+
         return super.onOptionsItemSelected(item);
     }
 
-    public void cambiarIdioma(String idioma){
-
-    }
-
 }
+
+
+
