@@ -22,4 +22,9 @@
     <string name="Radisson">Radisson Blu Hotel</string>
     <string name="Aurorass">Auroras Boreales</string>
     <string name="PerspectivaT">Perspectiva Fjellheisen</string>
+    <string name="Contacto">Contacto:</string>
+    <string name="Rango">($ 50.444 - $ 114.856)</string>
+    <string name="Telefonos">Telefono: 123456789</string>
+    <string name="Plato">Plato recomendado: Margarita</string>
+
 </resources>

@@ -24,4 +24,9 @@
     <string name="Radisson">Radisson Blu Hotell</string>
     <string name="Aurorass">Nordlys</string>
     <string name="PerspectivaT">Fjellheisen perspektiv</string>
+    <string name="Contacto">kontakt:</string>
+    <string name="Rango">($ 50.444 - $ 114.856)</string>
+    <string name="Telefonos">telefon: 123456789</string>
+    <string name="Plato">Anbefalt rett: Margarita</string>
+
 </resources>

@@ -24,4 +24,8 @@
     <string name="Radisson">Radisson Blu Hotel</string>
     <string name="Aurorass">Northern Lights</string>
     <string name="PerspectivaT">Fjellheisen perspective</string>
+    <string name="Contacto">Contact:</string>
+    <string name="Rango">($ 50.444 - $ 114.856)</string>
+    <string name="Telefonos">Phone: 123456789</string>
+    <string name="Plato">Recommended dish: Margarita</string>
 </resources>
