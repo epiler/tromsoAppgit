@@ -74,7 +74,7 @@ public class Home extends AppCompatActivity {
         Locale.setDefault(lenguaje);
 
 
-        //CONFIGURAMOS BLOBALMENTE EL TELEFONO
+        //CONFIGURAMOS gLOBALMENTE EL TELEFONO
 
         Configuration configuracionTelefono = getResources().getConfiguration();
         configuracionTelefono.locale = lenguaje;
