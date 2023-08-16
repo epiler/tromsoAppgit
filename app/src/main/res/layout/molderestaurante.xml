@@ -50,7 +50,7 @@
         />
 
     <TextView
-        android:id="@+id/Telefono"
+        android:id="@+id/TelefonoList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/Rango"
@@ -68,7 +68,7 @@
         android:id="@+id/Plato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/Telefono"
+        app:layout_constraintTop_toBottomOf="@id/TelefonoList"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
