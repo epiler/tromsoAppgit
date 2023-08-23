@@ -22,7 +22,7 @@ public class Hoteles extends AppCompatActivity {
         botonDomos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Hoteles.this,DomosHielo.class);
+                Intent intent = new Intent(Hoteles.this,ListaHoteles.class);
                 startActivity(intent);
             }
         });

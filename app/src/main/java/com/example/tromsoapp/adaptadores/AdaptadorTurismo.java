@@ -41,24 +41,25 @@ public class AdaptadorTurismo extends RecyclerView.Adapter<AdaptadorTurismo.view
     }
 
     public class viewHolder extends RecyclerView.ViewHolder {
-        TextView nombreSitios;
-        ImageView fotoSitios;
-        TextView contactos;
+        TextView NombreSitio;
+        ImageView imagenSitio;
+        TextView contactoSitios;
+        TextView getNombreP;
         TextView telefonoSitios;
         TextView precio;
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-            nombreSitios  = itemView.findViewById(R.id.nombreSitios);
-            fotoSitios = itemView.findViewById(R.id.aurorasimg);
-            contactos = itemView.findViewById(R.id.contactos);
+            NombreSitio  = itemView.findViewById(R.id.imagenSitio);
+            imagenSitio = itemView.findViewById(R.id.imagenSitio);
+            contactoSitios = itemView.findViewById(androidx.core.R.id.notification_main_column);
             telefonoSitios = itemView.findViewById(R.id.telefonoSitios);
             precio = itemView.findViewById(R.id.precio);
         }
 
         public void actualizarDatos(MoldeTurismo moldesitios) {
-            nombreSitios.setText(moldesitios.getNombre());
-            fotoSitios.setImageResource(moldesitios.getFoto());
-            contactos.setText(moldesitios.getNombreContacto());
+            NombreSitio.setText(moldesitios.getNombre());
+            imagenSitio.setImageResource(moldesitios.getFoto());
+            contactoSitios.setText(moldesitios.getNombreContacto());
             telefonoSitios.setText(moldesitios.getTelefono());
             precio.setText(moldesitios.getPrecio());
         }

@@ -4,41 +4,28 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+
     <TextView
-        android:id="@+id/nombreSitios"
+        android:id="@+id/NombreSitio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Nombre:"
+        android:text="Auroras boreales"
         app:layout_constraintVertical_bias="0.1"
-        app:layout_constraintHorizontal_bias="0.1"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        />
-
-    <TextView
-        android:id="@+id/Sitios"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nombreSitios"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/Aurorass"
-        app:layout_constraintVertical_bias="0.1"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.5"
         android:textColor="@color/black"
         android:textSize="30dp"
         />
 
     <ImageView
-        android:id="@+id/aurorasimg"
+        android:id="@+id/imagenSitio"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
-        app:layout_constraintTop_toBottomOf="@id/Sitios"
+        app:layout_constraintTop_toBottomOf="@id/NombreSitio"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +39,7 @@
         android:id="@+id/contactoSitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/aurorasimg"
+        app:layout_constraintTop_toBottomOf="@id/imagenSitio"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.2"/>
 
     <TextView
-        android:id="@+id/contactos"
+        android:id="@+id/nombreP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="a"
@@ -73,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toEndOf="@+id/contactoSitios"
-        app:layout_constraintTop_toBottomOf="@id/aurorasimg"
+        app:layout_constraintTop_toBottomOf="@id/imagenSitio"
         app:layout_constraintVertical_bias="0.2" />
 
     <TextView
@@ -101,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toEndOf="@+id/telefonoSitios"
-        app:layout_constraintTop_toBottomOf="@id/contactos"
+        app:layout_constraintTop_toBottomOf="@id/nombreP"
         app:layout_constraintVertical_bias="0.2" />
 
     <TextView
