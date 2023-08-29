@@ -49,9 +49,9 @@ public class AdaptadorTurismo extends RecyclerView.Adapter<AdaptadorTurismo.view
         TextView precio;
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-            NombreSitio  = itemView.findViewById(R.id.imagenSitio);
+            NombreSitio  = itemView.findViewById(R.id.NombreSitio);
             imagenSitio = itemView.findViewById(R.id.imagenSitio);
-            contactoSitios = itemView.findViewById(androidx.core.R.id.notification_main_column);
+            contactoSitios = itemView.findViewById(R.id.nombreP);
             telefonoSitios = itemView.findViewById(R.id.telefonoSitios);
             precio = itemView.findViewById(R.id.precio);
         }
