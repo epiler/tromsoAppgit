@@ -1,4 +1,5 @@
 package com.example.tromsoapp.adaptadores;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.tromsoapp.AmpliandoHotel;
+import com.example.tromsoapp.AmpliandoRestaurante;
 import com.example.tromsoapp.R;
 import com.example.tromsoapp.moldes.MoldeHotel;
 import com.example.tromsoapp.moldes.MoldeRestaurante;
@@ -60,6 +63,14 @@ public class AdaptadorRestaurantes extends RecyclerView.Adapter<AdaptadorRestaur
             RangoRestaurante.setText(moldeRestaurante.getRangoPrecio());
             telefonoRestaurante.setText(moldeRestaurante.getTelefono());
             platoRestaurante.setText(moldeRestaurante.getPlatoRecomendado());
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(itemView.getContext(), AmpliandoRestaurante.class);
+                    itemView.getContext().startActivity(intent);
+                }
+            });
         }
     }
 
