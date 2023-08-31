@@ -1,4 +1,8 @@
-package com.example.tromsoapp.moldes;public class MoldeRestaurante {
+package com.example.tromsoapp.moldes;
+
+import java.io.Serializable;
+
+public class MoldeRestaurante implements Serializable {
 
 private String nombre;
 private Integer foto;

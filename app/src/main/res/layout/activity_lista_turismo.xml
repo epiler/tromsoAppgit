@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".listaTurismo">
 
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ListaDimT"
         android:layout_width="match_parent"

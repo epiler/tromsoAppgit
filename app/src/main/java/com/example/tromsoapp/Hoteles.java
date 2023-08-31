@@ -27,13 +27,5 @@ public class Hoteles extends AppCompatActivity {
             }
         });
 
-        botonRadisson=findViewById(R.id.view2);
-        botonRadisson.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Hoteles.this,Radisson.class);
-                startActivity(intent);
-            }
-        });
     }
 }
