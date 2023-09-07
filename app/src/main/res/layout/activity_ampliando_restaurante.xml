@@ -30,10 +30,11 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/FotoRestaurantes"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.052" />
+
+
 
     <TextView
         android:id="@+id/LoremRestaurantes"
@@ -47,7 +48,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/NombreRestaurantes"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/valoracionR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.0"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LoremRestaurantes"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/comentarioR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ksks: jksjssjsjsjsjsjs"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valoracionR"
+        app:layout_constraintVertical_bias="0.118" />
 
     <Button
         android:id="@+id/botonrestaurantes"
@@ -56,12 +83,12 @@
         android:layout_marginHorizontal="60dp"
         android:backgroundTint="@color/royalblue"
         android:text="RESERVAR"
+        android:textColor="@color/white"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/LoremRestaurantes"
-        app:layout_constraintVertical_bias="0.424"
-        android:textColor="@color/white"/>
+        app:layout_constraintVertical_bias="0.772" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

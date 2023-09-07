@@ -12,7 +12,7 @@
 
     <ImageView
         android:id="@+id/FotoHoteles"
-        android:layout_width="wrap_content"
+        android:layout_width="420dp"
         android:layout_height="250dp"
         android:src="@drawable/raddissonblue"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,57 +27,81 @@
         android:id="@+id/NombreHoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/FotoHoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="Radisson"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
-        app:layout_constraintVertical_bias="0.15"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FotoHoteles"
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
         android:id="@+id/PrecioHoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/NombreHoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="$100.000"
         android:textColor="@color/black"
         android:textSize="25dp"
-        app:layout_constraintVertical_bias="0.1"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/NombreHoteles"
+        app:layout_constraintVertical_bias="0.124" />
 
     <TextView
         android:id="@+id/TelefonoHoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/PrecioHoteles"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="3137720706"
         android:textColor="@color/black"
         android:textSize="25dp"
-        app:layout_constraintVertical_bias="0.2"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PrecioHoteles"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <TextView
+        android:id="@+id/valoracionH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.0"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TelefonoHoteles"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <TextView
+        android:id="@+id/comentarioH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rogelio:aaaa aaaaaaaa"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valoracionH"
+        app:layout_constraintVertical_bias="0.147" />
 
     <Button
         android:id="@+id/BotonHoteles"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/TelefonoHoteles"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginHorizontal="60dp"
+        android:backgroundTint="@color/royalblue"
+        android:text="RESERVAR"
+        android:textColor="@color/white"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/royalblue"
-        android:layout_marginHorizontal="60dp"
-        android:text="RESERVAR"
-        android:textSize="18dp"
-        android:textColor="@color/white"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TelefonoHoteles"
+        app:layout_constraintVertical_bias="0.791" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

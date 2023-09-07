@@ -44,7 +44,7 @@ public class Home extends AppCompatActivity {
         botonHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentH = new Intent(Home.this,Hoteles.class);
+                Intent intentH = new Intent(Home.this,ListaHoteles.class);
                 startActivity(intentH);
             }
         });
@@ -52,7 +52,7 @@ public class Home extends AppCompatActivity {
         botonRestaurantes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentR = new Intent(Home.this,Restaurantes.class);
+                Intent intentR = new Intent(Home.this,ListaRestaurantes.class);
                 startActivity(intentR);
             }
         });
@@ -60,7 +60,7 @@ public class Home extends AppCompatActivity {
         botonTurismo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentT = new Intent(Home.this,turismoo.class);
+                Intent intentT = new Intent(Home.this,listaTurismo.class);
                 startActivity(intentT);
             }
         });

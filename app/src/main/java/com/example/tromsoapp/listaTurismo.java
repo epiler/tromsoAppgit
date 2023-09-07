@@ -32,7 +32,7 @@ public class listaTurismo extends AppCompatActivity {
     public void llenarListaConDatos() {
         listaTurismo.add(new MoldeTurismo("Northern Lights", "Juan", "3137720705", "500.000", R.drawable.tromsonorthernlightstour));
         listaTurismo.add(new MoldeTurismo("Trineo", "David", "3137720796", "300.000", R.drawable.trineo));
-        listaTurismo.add(new MoldeTurismo("Whales", "Roier", "3137720745", "100.000", R.drawable.ballena));
+        listaTurismo.add(new MoldeTurismo("Whales", "Roier", "3137720745", "100.000", R.drawable.avistamiento));
     }
 
 }

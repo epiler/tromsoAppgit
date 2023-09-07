@@ -29,11 +29,11 @@ public class ListaHoteles extends AppCompatActivity {
     }
 
     public void llenarListaConDatos(){
-        listaHoteles.add(new MoldeHotel("Domos de hielo", "$100.000", "123456789",R.drawable.hoteluno));
-        listaHoteles.add(new MoldeHotel("Raddisson Blue", "$200.000", "223456789",R.drawable.raddissonblue));
-        listaHoteles.add(new MoldeHotel("Clarion", "$600.000", "323456789",R.drawable.clarion));
-        listaHoteles.add(new MoldeHotel("Smart", "$50.000", "423456789",R.drawable.smarth));
-        listaHoteles.add(new MoldeHotel("Scandic", "$100.000", "523456789",R.drawable.scandic));
+        listaHoteles.add(new MoldeHotel("Domos de hielo", "$100.000", "123456789",R.drawable.domos,"4.5","Juan:aaaaaa aaaa"));
+        listaHoteles.add(new MoldeHotel("Raddisson Blue", "$200.000", "223456789",R.drawable.raddissonblue ,"4.5","Juan:aaaaaa aaaa"));
+        listaHoteles.add(new MoldeHotel("Clarion", "$600.000", "323456789",R.drawable.clarion ,"4.5","Juan:aaaaaa aaaa"));
+        listaHoteles.add(new MoldeHotel("Smart", "$50.000", "423456789",R.drawable.smarth,"4.5","Juan:aaaaaa aaaa"));
+        listaHoteles.add(new MoldeHotel("Scandic", "$100.000", "523456789",R.drawable.scandic,"4.5","Juan:aaaaaa aaaa"));
     }
 
 }

@@ -7,7 +7,8 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="20dp"
     app:cardElevation="5dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    android:background="@color/white">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,10 +22,9 @@
             android:layout_width="400dp"
             android:layout_height="266dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:scaleType="fitXY"
-            android:src="@drawable/hoteluno"
+            android:src="@drawable/domos"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.761"
@@ -62,10 +62,10 @@
             android:textSize="26dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.065"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nombreListaHotel"
-            app:layout_constraintVertical_bias="0.01" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/contactoListaHotel"

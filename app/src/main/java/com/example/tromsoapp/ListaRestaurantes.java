@@ -31,9 +31,9 @@ public class ListaRestaurantes extends AppCompatActivity {
     }
 
     public void llenarListaConDatos() {
-        listaRestaurante.add(new MoldeRestaurante("Elefant Indisk",R.drawable.elefant, "3137720706", "$20.000 - $90.000", "Margarita"));
-        listaRestaurante.add(new MoldeRestaurante("Lotus",R.drawable.lotus, "3207720705", "$27.000 - $100.000", "Whale"));
-        listaRestaurante.add(new MoldeRestaurante("Raketten",R.drawable.raketten, "3217720701", "$15.000 - $80.000", "Salmon"));
+        listaRestaurante.add(new MoldeRestaurante("Elefant Indisk",R.drawable.elefant, "3137720706", "$20.000 - $90.000", "Margarita","Hotel hermosoy agradable", "3.5", "john: djfdjkdjkjds"));
+        listaRestaurante.add(new MoldeRestaurante("Lotus",R.drawable.lotus, "3207720705", "$27.000 - $100.000", "Whale","Hotel feo", "3.4", "alfred: djfdjkdjkjds"));
+        listaRestaurante.add(new MoldeRestaurante("Raketten",R.drawable.raketten, "3217720701", "$15.000 - $80.000", "Salmon","Hotel asqueroso", "3.9", "alberto: djfdjkdjkjds"));
 
     }
 
