@@ -30,9 +30,10 @@ public class listaTurismo extends AppCompatActivity {
     }
 
     public void llenarListaConDatos() {
-        listaTurismo.add(new MoldeTurismo("Northern Lights", "Juan", "3137720705", "500.000", R.drawable.tromsonorthernlightstour));
-        listaTurismo.add(new MoldeTurismo("Trineo", "David", "3137720796", "300.000", R.drawable.trineo));
-        listaTurismo.add(new MoldeTurismo("Whales", "Roier", "3137720745", "100.000", R.drawable.avistamiento));
+        listaTurismo.add(new MoldeTurismo(R.drawable.tromsonorthernlightstour, R.drawable.smarth, "Northern Lights", "aadsjkdfjkhjkshjkds jsdjksdjksdjd", "200", "Alberto", "3137720706", "Ruben:aaaaaaa", 5.0f));
+        listaTurismo.add(new MoldeTurismo(R.drawable.trineo, R.drawable.tromsonorthernlightstour, "Trineo", "eeeeeesdsdsdsdsds", "300", "Ronnie", "3437720728", "Marlon:eeeee", 3.5f));
+        listaTurismo.add(new MoldeTurismo(R.drawable.avistamiento, R.drawable.scandic, "Whales", "iiiiiiiiiioooo", "100", "jonnie", "6927720706", "Samuel:iiiii", 4.0f));
+
     }
 
 }

@@ -19,16 +19,7 @@ import java.util.ArrayList;
 
 public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.viewHolder> {
 
-    //TOD0 ADAPTADOR TIENE UNA LISTA DE ELEMENTOS
     public ArrayList<MoldeHotel> listaHoteles;
-
-    //CREAMOS UN COSTRUCTOR VACIO
-
-    public AdaptadorHoteles() {
-
-    }
-
-    //CREAMOS UN CONSTRUCTOR LLENO
 
 
     public AdaptadorHoteles(ArrayList<MoldeHotel> listaHoteles) {
@@ -60,12 +51,15 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
         TextView nombreHotel;
         TextView precioHotel;
         TextView contactoHotel;
+
+
+
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-                    fotoHotel = itemView.findViewById(R.id.fotoListaHotel);
-                    nombreHotel  = itemView.findViewById(R.id.nombreListaHotel);
-                    precioHotel = itemView.findViewById(R.id.precioListaHotel);
-                    contactoHotel = itemView.findViewById(R.id.contactoListaHotel);
+            fotoHotel = itemView.findViewById(R.id.fotoListaHotel);
+            nombreHotel  = itemView.findViewById(R.id.nombreListaHotel);
+            precioHotel = itemView.findViewById(R.id.precioListaHotel);
+            contactoHotel = itemView.findViewById(R.id.contactoListaHotel);
         }
 
         public void actualizarDatos(MoldeHotel moldeHotel) {

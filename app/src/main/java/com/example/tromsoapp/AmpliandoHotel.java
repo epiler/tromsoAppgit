@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.media.Image;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,12 +13,19 @@ import com.example.tromsoapp.moldes.MoldeHotel;
 
 public class AmpliandoHotel extends AppCompatActivity {
 
+
+
     MoldeHotel moldeHotel;
+
     ImageView fotoAmpliandoHotel;
+
+    ImageView fotoAmpliandoHotel2;
     TextView nombreAmpliandoHotel;
+
     TextView PrecioHoteles;
+
     TextView TelefonoHoteles;
-    TextView valoracionH;
+    RatingBar valoracionH;
     TextView comentarioH;
 
 
@@ -28,6 +36,7 @@ public class AmpliandoHotel extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ampliando_hotel);
         fotoAmpliandoHotel=findViewById(R.id.FotoHoteles);
+        fotoAmpliandoHotel2=findViewById(R.id.FotoHoteles2);
         nombreAmpliandoHotel=findViewById(R.id.NombreHoteles);
         PrecioHoteles=findViewById(R.id.PrecioHoteles);
         TelefonoHoteles=findViewById(R.id.TelefonoHoteles);
@@ -39,10 +48,11 @@ public class AmpliandoHotel extends AppCompatActivity {
         //CARGANDO LA INFO EN LOS COMPONENTES GRAFICOS
 
         fotoAmpliandoHotel.setImageResource(moldeHotel.getFoto());
+        fotoAmpliandoHotel2.setImageResource(moldeHotel.getFoto2());
         nombreAmpliandoHotel.setText(moldeHotel.getNombre());
         PrecioHoteles.setText(moldeHotel.getPrecio());
         TelefonoHoteles.setText(moldeHotel.getTelefono());
-        valoracionH.setText(moldeHotel.getValoracionH());
+        valoracionH.setRating(moldeHotel.getValoracionH());
         comentarioH.setText(moldeHotel.getComentarioH());
     }
 }
