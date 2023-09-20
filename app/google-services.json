@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045455672710",
+    "project_id": "turisteandojdca",
+    "storage_bucket": "turisteandojdca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045455672710:android:c73f46a88bfd27bab68807",
+        "android_client_info": {
+          "package_name": "com.example.tromsoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5FITsYn2n4YMfR3irJFeNkKsC8O93w9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
