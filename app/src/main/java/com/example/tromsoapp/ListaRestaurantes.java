@@ -47,6 +47,9 @@ public class ListaRestaurantes extends AppCompatActivity {
                                 String recomendado = document.getString("telefono");
                                 String telefono = document.getString("telefono");
                                 Toast.makeText(ListaRestaurantes.this, nombreRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaRestaurantes.this, precioRestaurante, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaRestaurantes.this, recomendado, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ListaRestaurantes.this, telefono, Toast.LENGTH_SHORT).show();
                             }
                         } else {
 

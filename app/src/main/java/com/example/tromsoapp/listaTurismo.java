@@ -46,6 +46,9 @@ public class listaTurismo extends AppCompatActivity {
                                 String contacto = document.getString("contacto");
                                 String telefono = document.getString("telefono");
                                 Toast.makeText(listaTurismo.this, nombreLugar, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaTurismo.this, precioLugar, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaTurismo.this, contacto, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(listaTurismo.this, telefono, Toast.LENGTH_SHORT).show();
                             }
                         } else {
 
