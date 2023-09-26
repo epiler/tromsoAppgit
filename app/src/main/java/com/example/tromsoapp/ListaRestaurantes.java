@@ -7,9 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.tromsoapp.adaptadores.AdaptadorHoteles;
 import com.example.tromsoapp.adaptadores.AdaptadorRestaurantes;
-import com.example.tromsoapp.moldes.MoldeHotel;
 import com.example.tromsoapp.moldes.MoldeRestaurante;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -34,7 +32,7 @@ public class ListaRestaurantes extends AppCompatActivity {
         recyclerView=findViewById(R.id.ListaDimR);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
 
-        db.collection("reataurantes")
+        db.collection("restaurantes")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
@@ -44,7 +42,7 @@ public class ListaRestaurantes extends AppCompatActivity {
 
                                 String nombreRestaurante =document.getString("nombre");
                                 String precioRestaurante =document.getString("precio");
-                                String recomendado = document.getString("telefono");
+                                String recomendado = document.getString("recomendado");
                                 String telefono = document.getString("telefono");
                                 Toast.makeText(ListaRestaurantes.this, nombreRestaurante, Toast.LENGTH_SHORT).show();
                                 Toast.makeText(ListaRestaurantes.this, precioRestaurante, Toast.LENGTH_SHORT).show();

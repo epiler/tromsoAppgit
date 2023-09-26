@@ -7,9 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.tromsoapp.adaptadores.AdaptadorRestaurantes;
 import com.example.tromsoapp.adaptadores.AdaptadorTurismo;
-import com.example.tromsoapp.moldes.MoldeRestaurante;
 import com.example.tromsoapp.moldes.MoldeTurismo;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -33,7 +31,7 @@ public class listaTurismo extends AppCompatActivity {
         recyclerView=findViewById(R.id.ListaDimT);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
 
-        db.collection("turismo")
+        db.collection("lugares")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
